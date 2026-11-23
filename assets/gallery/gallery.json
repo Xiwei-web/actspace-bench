@@ -1,0 +1,1196 @@
+{
+ "rows": [
+  {
+   "id": "hard",
+   "label": "Hard",
+   "range": "ARKitScenes 10–19 steps; ScanNet++ 10–21 steps",
+   "score": "models 3–68%",
+   "n_questions": 254
+  },
+  {
+   "id": "medium",
+   "label": "Medium",
+   "range": "ARKitScenes 7–9 steps; ScanNet++ 6–9 steps",
+   "score": "models 2–81%",
+   "n_questions": 292
+  },
+  {
+   "id": "easy",
+   "label": "Easy",
+   "range": "ARKitScenes 1–6 steps; ScanNet++ 1–5 steps",
+   "score": "models 4–86%",
+   "n_questions": 353
+  }
+ ],
+ "cols": [
+  {
+   "id": "T1"
+  },
+  {
+   "id": "T2"
+  },
+  {
+   "id": "T3"
+  },
+  {
+   "id": "T4"
+  },
+  {
+   "id": "T5"
+  }
+ ],
+ "cells": {
+  "hard|T1": [
+   {
+    "group": "arkit_g_000039",
+    "scene": "arkit_47204566",
+    "template": "T1",
+    "question": "Give the distance in meters from the center of the table to the center of the shelf.",
+    "oracle_steps": 10,
+    "frames": [
+     "assets/gallery/arkit_g_000039/f_000288.jpg",
+     "assets/gallery/arkit_g_000039/f_000210.jpg",
+     "assets/gallery/arkit_g_000039/f_000168.jpg",
+     "assets/gallery/arkit_g_000039/f_001504.jpg",
+     "assets/gallery/arkit_g_000039/f_001550.jpg",
+     "assets/gallery/arkit_g_000039/f_001376.jpg",
+     "assets/gallery/arkit_g_000039/f_000963.jpg",
+     "assets/gallery/arkit_g_000039/f_001002.jpg",
+     "assets/gallery/arkit_g_000039/f_001035.jpg",
+     "assets/gallery/arkit_g_000039/f_001059.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000081",
+    "scene": "arkit_47430471",
+    "template": "T1",
+    "question": "Tell me how far the center of the stool is from the center of the refrigerator, in meters.",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000081/f_003908.jpg",
+     "assets/gallery/arkit_g_000081/f_001526.jpg",
+     "assets/gallery/arkit_g_000081/f_001646.jpg",
+     "assets/gallery/arkit_g_000081/f_003277.jpg",
+     "assets/gallery/arkit_g_000081/f_002129.jpg",
+     "assets/gallery/arkit_g_000081/f_004436.jpg",
+     "assets/gallery/arkit_g_000081/f_000441.jpg",
+     "assets/gallery/arkit_g_000081/f_003424.jpg",
+     "assets/gallery/arkit_g_000081/f_003441.jpg",
+     "assets/gallery/arkit_g_000081/f_000808.jpg",
+     "assets/gallery/arkit_g_000081/f_000966.jpg",
+     "assets/gallery/arkit_g_000081/f_004154.jpg",
+     "assets/gallery/arkit_g_000081/f_004244.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000071",
+    "scene": "arkit_47333932",
+    "template": "T1",
+    "question": "Find the distance between the centers of the stool and the bed, expressed in meters.",
+    "oracle_steps": 14,
+    "frames": [
+     "assets/gallery/arkit_g_000071/f_002182.jpg",
+     "assets/gallery/arkit_g_000071/f_002059.jpg",
+     "assets/gallery/arkit_g_000071/f_002806.jpg",
+     "assets/gallery/arkit_g_000071/f_002890.jpg",
+     "assets/gallery/arkit_g_000071/f_002923.jpg",
+     "assets/gallery/arkit_g_000071/f_001370.jpg",
+     "assets/gallery/arkit_g_000071/f_001521.jpg",
+     "assets/gallery/arkit_g_000071/f_001301.jpg",
+     "assets/gallery/arkit_g_000071/f_001284.jpg",
+     "assets/gallery/arkit_g_000071/f_001256.jpg",
+     "assets/gallery/arkit_g_000071/f_000387.jpg",
+     "assets/gallery/arkit_g_000071/f_000357.jpg",
+     "assets/gallery/arkit_g_000071/f_000324.jpg",
+     "assets/gallery/arkit_g_000071/f_000231.jpg",
+     "assets/gallery/arkit_g_000071/f_000261.jpg"
+    ]
+   }
+  ],
+  "hard|T2": [
+   {
+    "group": "arkit_g_000064",
+    "scene": "arkit_47331963",
+    "template": "T2",
+    "question": "Out of the following objects, which is farthest from the shelf?",
+    "oracle_steps": 13,
+    "frames": [
+     "assets/gallery/arkit_g_000064/f_005409.jpg",
+     "assets/gallery/arkit_g_000064/f_005379.jpg",
+     "assets/gallery/arkit_g_000064/f_005355.jpg",
+     "assets/gallery/arkit_g_000064/f_004334.jpg",
+     "assets/gallery/arkit_g_000064/f_005363.jpg",
+     "assets/gallery/arkit_g_000064/f_004991.jpg",
+     "assets/gallery/arkit_g_000064/f_004943.jpg",
+     "assets/gallery/arkit_g_000064/f_004921.jpg",
+     "assets/gallery/arkit_g_000064/f_004819.jpg",
+     "assets/gallery/arkit_g_000064/f_002289.jpg",
+     "assets/gallery/arkit_g_000064/f_004798.jpg",
+     "assets/gallery/arkit_g_000064/f_004759.jpg",
+     "assets/gallery/arkit_g_000064/f_004749.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000039",
+    "scene": "arkit_47204566",
+    "template": "T2",
+    "question": "Comparing the shelf and the TV, which one is closer to the table?",
+    "oracle_steps": 10,
+    "frames": [
+     "assets/gallery/arkit_g_000039/f_000288.jpg",
+     "assets/gallery/arkit_g_000039/f_000210.jpg",
+     "assets/gallery/arkit_g_000039/f_000168.jpg",
+     "assets/gallery/arkit_g_000039/f_001504.jpg",
+     "assets/gallery/arkit_g_000039/f_001550.jpg",
+     "assets/gallery/arkit_g_000039/f_001376.jpg",
+     "assets/gallery/arkit_g_000039/f_000963.jpg",
+     "assets/gallery/arkit_g_000039/f_001002.jpg",
+     "assets/gallery/arkit_g_000039/f_001035.jpg",
+     "assets/gallery/arkit_g_000039/f_001059.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000006",
+    "scene": "arkit_42446541",
+    "template": "T2",
+    "question": "Among the following objects, which one is closest to the oven?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000006/f_000421.jpg",
+     "assets/gallery/arkit_g_000006/f_001412.jpg",
+     "assets/gallery/arkit_g_000006/f_001757.jpg",
+     "assets/gallery/arkit_g_000006/f_001787.jpg",
+     "assets/gallery/arkit_g_000006/f_001822.jpg",
+     "assets/gallery/arkit_g_000006/f_001837.jpg",
+     "assets/gallery/arkit_g_000006/f_001864.jpg",
+     "assets/gallery/arkit_g_000006/f_001882.jpg",
+     "assets/gallery/arkit_g_000006/f_001944.jpg",
+     "assets/gallery/arkit_g_000006/f_001971.jpg",
+     "assets/gallery/arkit_g_000006/f_002001.jpg",
+     "assets/gallery/arkit_g_000006/f_002031.jpg"
+    ]
+   }
+  ],
+  "hard|T3": [
+   {
+    "group": "arkit_g_000060",
+    "scene": "arkit_47331653",
+    "template": "T3",
+    "question": "If you stood at the oven while facing the refrigerator, where would the stool be relative to you?",
+    "oracle_steps": 15,
+    "frames": [
+     "assets/gallery/arkit_g_000060/f_001174.jpg",
+     "assets/gallery/arkit_g_000060/f_001288.jpg",
+     "assets/gallery/arkit_g_000060/f_000718.jpg",
+     "assets/gallery/arkit_g_000060/f_004448.jpg",
+     "assets/gallery/arkit_g_000060/f_000859.jpg",
+     "assets/gallery/arkit_g_000060/f_001312.jpg",
+     "assets/gallery/arkit_g_000060/f_001645.jpg",
+     "assets/gallery/arkit_g_000060/f_000390.jpg",
+     "assets/gallery/arkit_g_000060/f_000354.jpg",
+     "assets/gallery/arkit_g_000060/f_000635.jpg",
+     "assets/gallery/arkit_g_000060/f_004464.jpg",
+     "assets/gallery/arkit_g_000060/f_004138.jpg",
+     "assets/gallery/arkit_g_000060/f_003814.jpg",
+     "assets/gallery/arkit_g_000060/f_003307.jpg",
+     "assets/gallery/arkit_g_000060/f_003766.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000071",
+    "scene": "arkit_47333932",
+    "template": "T3",
+    "question": "Standing at the bed and facing the stool, where would you find the table relative to yourself?",
+    "oracle_steps": 14,
+    "frames": [
+     "assets/gallery/arkit_g_000071/f_002182.jpg",
+     "assets/gallery/arkit_g_000071/f_002059.jpg",
+     "assets/gallery/arkit_g_000071/f_002806.jpg",
+     "assets/gallery/arkit_g_000071/f_002890.jpg",
+     "assets/gallery/arkit_g_000071/f_002923.jpg",
+     "assets/gallery/arkit_g_000071/f_001370.jpg",
+     "assets/gallery/arkit_g_000071/f_001521.jpg",
+     "assets/gallery/arkit_g_000071/f_001301.jpg",
+     "assets/gallery/arkit_g_000071/f_001284.jpg",
+     "assets/gallery/arkit_g_000071/f_001256.jpg",
+     "assets/gallery/arkit_g_000071/f_000387.jpg",
+     "assets/gallery/arkit_g_000071/f_000357.jpg",
+     "assets/gallery/arkit_g_000071/f_000324.jpg",
+     "assets/gallery/arkit_g_000071/f_000231.jpg",
+     "assets/gallery/arkit_g_000071/f_000261.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000036",
+    "scene": "arkit_47115473",
+    "template": "T3",
+    "question": "Picture yourself standing at the toilet and facing the sink. Where is the bathtub from your point of view?",
+    "oracle_steps": 15,
+    "frames": [
+     "assets/gallery/arkit_g_000036/f_003006.jpg",
+     "assets/gallery/arkit_g_000036/f_002598.jpg",
+     "assets/gallery/arkit_g_000036/f_002562.jpg",
+     "assets/gallery/arkit_g_000036/f_000835.jpg",
+     "assets/gallery/arkit_g_000036/f_000905.jpg",
+     "assets/gallery/arkit_g_000036/f_001439.jpg",
+     "assets/gallery/arkit_g_000036/f_001189.jpg",
+     "assets/gallery/arkit_g_000036/f_001291.jpg",
+     "assets/gallery/arkit_g_000036/f_001226.jpg",
+     "assets/gallery/arkit_g_000036/f_001003.jpg",
+     "assets/gallery/arkit_g_000036/f_000695.jpg",
+     "assets/gallery/arkit_g_000036/f_000614.jpg",
+     "assets/gallery/arkit_g_000036/f_003406.jpg",
+     "assets/gallery/arkit_g_000036/f_000399.jpg",
+     "assets/gallery/arkit_g_000036/f_000264.jpg",
+     "assets/gallery/arkit_g_000036/f_000213.jpg"
+    ]
+   }
+  ],
+  "hard|T4": [
+   {
+    "group": "arkit_g_000081",
+    "scene": "arkit_47430471",
+    "template": "T4",
+    "question": "Relative to where you started and the direction you were initially facing, where is the refrigerator?",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000081/f_003908.jpg",
+     "assets/gallery/arkit_g_000081/f_001526.jpg",
+     "assets/gallery/arkit_g_000081/f_001646.jpg",
+     "assets/gallery/arkit_g_000081/f_003277.jpg",
+     "assets/gallery/arkit_g_000081/f_002129.jpg",
+     "assets/gallery/arkit_g_000081/f_004436.jpg",
+     "assets/gallery/arkit_g_000081/f_000441.jpg",
+     "assets/gallery/arkit_g_000081/f_003424.jpg",
+     "assets/gallery/arkit_g_000081/f_003441.jpg",
+     "assets/gallery/arkit_g_000081/f_000808.jpg",
+     "assets/gallery/arkit_g_000081/f_000966.jpg",
+     "assets/gallery/arkit_g_000081/f_004154.jpg",
+     "assets/gallery/arkit_g_000081/f_004244.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000014",
+    "scene": "arkit_42898527",
+    "template": "T4",
+    "question": "Where would the stove be relative to your starting position and initial viewing direction?",
+    "oracle_steps": 10,
+    "frames": [
+     "assets/gallery/arkit_g_000014/f_000460.jpg",
+     "assets/gallery/arkit_g_000014/f_000498.jpg",
+     "assets/gallery/arkit_g_000014/f_004934.jpg",
+     "assets/gallery/arkit_g_000014/f_004973.jpg",
+     "assets/gallery/arkit_g_000014/f_005070.jpg",
+     "assets/gallery/arkit_g_000014/f_005112.jpg",
+     "assets/gallery/arkit_g_000014/f_006626.jpg",
+     "assets/gallery/arkit_g_000014/f_000745.jpg",
+     "assets/gallery/arkit_g_000014/f_000901.jpg",
+     "assets/gallery/arkit_g_000014/f_001075.jpg",
+     "assets/gallery/arkit_g_000014/f_001170.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000015",
+    "scene": "arkit_42898849",
+    "template": "T4",
+    "question": "Based on your starting position and initial viewing direction, where is the stove?",
+    "oracle_steps": 36,
+    "frames": [
+     "assets/gallery/arkit_g_000015/f_002244.jpg",
+     "assets/gallery/arkit_g_000015/f_002206.jpg",
+     "assets/gallery/arkit_g_000015/f_001385.jpg",
+     "assets/gallery/arkit_g_000015/f_001429.jpg",
+     "assets/gallery/arkit_g_000015/f_001487.jpg",
+     "assets/gallery/arkit_g_000015/f_001448.jpg",
+     "assets/gallery/arkit_g_000015/f_002271.jpg",
+     "assets/gallery/arkit_g_000015/f_002303.jpg",
+     "assets/gallery/arkit_g_000015/f_002342.jpg",
+     "assets/gallery/arkit_g_000015/f_002384.jpg",
+     "assets/gallery/arkit_g_000015/f_002486.jpg",
+     "assets/gallery/arkit_g_000015/f_002549.jpg",
+     "assets/gallery/arkit_g_000015/f_002606.jpg",
+     "assets/gallery/arkit_g_000015/f_002702.jpg",
+     "assets/gallery/arkit_g_000015/f_002762.jpg",
+     "assets/gallery/arkit_g_000015/f_002900.jpg"
+    ]
+   }
+  ],
+  "hard|T5": [
+   {
+    "group": "arkit_g_000064",
+    "scene": "arkit_47331963",
+    "template": "T5",
+    "question": "Put yourself at the refrigerator, standing and facing the shelf. Which of the objects on your left is closest to you?",
+    "oracle_steps": 13,
+    "frames": [
+     "assets/gallery/arkit_g_000064/f_005409.jpg",
+     "assets/gallery/arkit_g_000064/f_005379.jpg",
+     "assets/gallery/arkit_g_000064/f_005355.jpg",
+     "assets/gallery/arkit_g_000064/f_004334.jpg",
+     "assets/gallery/arkit_g_000064/f_005363.jpg",
+     "assets/gallery/arkit_g_000064/f_004991.jpg",
+     "assets/gallery/arkit_g_000064/f_004943.jpg",
+     "assets/gallery/arkit_g_000064/f_004921.jpg",
+     "assets/gallery/arkit_g_000064/f_004819.jpg",
+     "assets/gallery/arkit_g_000064/f_002289.jpg",
+     "assets/gallery/arkit_g_000064/f_004798.jpg",
+     "assets/gallery/arkit_g_000064/f_004759.jpg",
+     "assets/gallery/arkit_g_000064/f_004749.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000093",
+    "scene": "arkit_48018368",
+    "template": "T5",
+    "question": "Assume you are standing at the sink, facing the refrigerator. Among the objects to your left, which one is closest to you?",
+    "oracle_steps": 15,
+    "frames": [
+     "assets/gallery/arkit_g_000093/f_000565.jpg",
+     "assets/gallery/arkit_g_000093/f_001757.jpg",
+     "assets/gallery/arkit_g_000093/f_000155.jpg",
+     "assets/gallery/arkit_g_000093/f_000492.jpg",
+     "assets/gallery/arkit_g_000093/f_000513.jpg",
+     "assets/gallery/arkit_g_000093/f_001423.jpg",
+     "assets/gallery/arkit_g_000093/f_001393.jpg",
+     "assets/gallery/arkit_g_000093/f_001336.jpg",
+     "assets/gallery/arkit_g_000093/f_001255.jpg",
+     "assets/gallery/arkit_g_000093/f_001276.jpg",
+     "assets/gallery/arkit_g_000093/f_001189.jpg",
+     "assets/gallery/arkit_g_000093/f_001525.jpg",
+     "assets/gallery/arkit_g_000093/f_001585.jpg",
+     "assets/gallery/arkit_g_000093/f_001090.jpg",
+     "assets/gallery/arkit_g_000093/f_001570.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000046",
+    "scene": "arkit_47331311",
+    "template": "T5",
+    "question": "Picture yourself standing at the sofa and facing the shelf. Which object on your left is closest to you?",
+    "oracle_steps": 20,
+    "frames": [
+     "assets/gallery/arkit_g_000046/f_000224.jpg",
+     "assets/gallery/arkit_g_000046/f_000233.jpg",
+     "assets/gallery/arkit_g_000046/f_000239.jpg",
+     "assets/gallery/arkit_g_000046/f_001878.jpg",
+     "assets/gallery/arkit_g_000046/f_001872.jpg",
+     "assets/gallery/arkit_g_000046/f_001800.jpg",
+     "assets/gallery/arkit_g_000046/f_000406.jpg",
+     "assets/gallery/arkit_g_000046/f_000575.jpg",
+     "assets/gallery/arkit_g_000046/f_000341.jpg",
+     "assets/gallery/arkit_g_000046/f_000631.jpg",
+     "assets/gallery/arkit_g_000046/f_000676.jpg",
+     "assets/gallery/arkit_g_000046/f_000778.jpg",
+     "assets/gallery/arkit_g_000046/f_000895.jpg",
+     "assets/gallery/arkit_g_000046/f_001125.jpg",
+     "assets/gallery/arkit_g_000046/f_001290.jpg",
+     "assets/gallery/arkit_g_000046/f_001173.jpg"
+    ]
+   }
+  ],
+  "medium|T1": [
+   {
+    "group": "arkit_g_000009",
+    "scene": "arkit_42897521",
+    "template": "T1",
+    "question": "In meters, what is the distance separating the center of the washing machine and the center of the sink?",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000009/f_001252.jpg",
+     "assets/gallery/arkit_g_000009/f_001219.jpg",
+     "assets/gallery/arkit_g_000009/f_001189.jpg",
+     "assets/gallery/arkit_g_000009/f_001354.jpg",
+     "assets/gallery/arkit_g_000009/f_001519.jpg",
+     "assets/gallery/arkit_g_000009/f_001570.jpg",
+     "assets/gallery/arkit_g_000009/f_001684.jpg",
+     "assets/gallery/arkit_g_000009/f_001657.jpg",
+     "assets/gallery/arkit_g_000009/f_001588.jpg",
+     "assets/gallery/arkit_g_000009/f_001692.jpg",
+     "assets/gallery/arkit_g_000009/f_000000.jpg",
+     "assets/gallery/arkit_g_000009/f_000632.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000039",
+    "scene": "arkit_47204566",
+    "template": "T1",
+    "question": "How long is the straight line from the center of the table to the center of the TV, in meters?",
+    "oracle_steps": 10,
+    "frames": [
+     "assets/gallery/arkit_g_000039/f_000288.jpg",
+     "assets/gallery/arkit_g_000039/f_000210.jpg",
+     "assets/gallery/arkit_g_000039/f_000168.jpg",
+     "assets/gallery/arkit_g_000039/f_001504.jpg",
+     "assets/gallery/arkit_g_000039/f_001550.jpg",
+     "assets/gallery/arkit_g_000039/f_001376.jpg",
+     "assets/gallery/arkit_g_000039/f_000963.jpg",
+     "assets/gallery/arkit_g_000039/f_001002.jpg",
+     "assets/gallery/arkit_g_000039/f_001035.jpg",
+     "assets/gallery/arkit_g_000039/f_001059.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000006",
+    "scene": "arkit_42446541",
+    "template": "T1",
+    "question": "In meters, how far apart are the center of the refrigerator and the center of the oven?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000006/f_000421.jpg",
+     "assets/gallery/arkit_g_000006/f_001412.jpg",
+     "assets/gallery/arkit_g_000006/f_001757.jpg",
+     "assets/gallery/arkit_g_000006/f_001787.jpg",
+     "assets/gallery/arkit_g_000006/f_001822.jpg",
+     "assets/gallery/arkit_g_000006/f_001837.jpg",
+     "assets/gallery/arkit_g_000006/f_001864.jpg",
+     "assets/gallery/arkit_g_000006/f_001882.jpg",
+     "assets/gallery/arkit_g_000006/f_001944.jpg",
+     "assets/gallery/arkit_g_000006/f_001971.jpg",
+     "assets/gallery/arkit_g_000006/f_002001.jpg",
+     "assets/gallery/arkit_g_000006/f_002031.jpg"
+    ]
+   }
+  ],
+  "medium|T2": [
+   {
+    "group": "arkit_g_000011",
+    "scene": "arkit_42897521",
+    "template": "T2",
+    "question": "Which lies closer to the stove: the sink, or the washing machine?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000011/f_001296.jpg",
+     "assets/gallery/arkit_g_000011/f_001119.jpg",
+     "assets/gallery/arkit_g_000011/f_001354.jpg",
+     "assets/gallery/arkit_g_000011/f_001519.jpg",
+     "assets/gallery/arkit_g_000011/f_000632.jpg",
+     "assets/gallery/arkit_g_000011/f_000000.jpg",
+     "assets/gallery/arkit_g_000011/f_001699.jpg",
+     "assets/gallery/arkit_g_000011/f_001684.jpg",
+     "assets/gallery/arkit_g_000011/f_001570.jpg",
+     "assets/gallery/arkit_g_000011/f_001395.jpg",
+     "assets/gallery/arkit_g_000011/f_001657.jpg",
+     "assets/gallery/arkit_g_000011/f_001588.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000106",
+    "scene": "arkit_48458667",
+    "template": "T2",
+    "question": "Of the chair and the shelf, which one sits closer to the bed?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000106/f_000840.jpg",
+     "assets/gallery/arkit_g_000106/f_001882.jpg",
+     "assets/gallery/arkit_g_000106/f_001810.jpg",
+     "assets/gallery/arkit_g_000106/f_000780.jpg",
+     "assets/gallery/arkit_g_000106/f_000750.jpg",
+     "assets/gallery/arkit_g_000106/f_000729.jpg",
+     "assets/gallery/arkit_g_000106/f_001205.jpg",
+     "assets/gallery/arkit_g_000106/f_001360.jpg",
+     "assets/gallery/arkit_g_000106/f_000453.jpg",
+     "assets/gallery/arkit_g_000106/f_000432.jpg",
+     "assets/gallery/arkit_g_000106/f_000201.jpg",
+     "assets/gallery/arkit_g_000106/f_000012.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000041",
+    "scene": "arkit_47204566",
+    "template": "T2",
+    "question": "Which of the objects below sits farthest from the TV?",
+    "oracle_steps": 8,
+    "frames": [
+     "assets/gallery/arkit_g_000041/f_001182.jpg",
+     "assets/gallery/arkit_g_000041/f_001059.jpg",
+     "assets/gallery/arkit_g_000041/f_001613.jpg",
+     "assets/gallery/arkit_g_000041/f_001198.jpg",
+     "assets/gallery/arkit_g_000041/f_000963.jpg",
+     "assets/gallery/arkit_g_000041/f_000285.jpg",
+     "assets/gallery/arkit_g_000041/f_000210.jpg",
+     "assets/gallery/arkit_g_000041/f_000168.jpg",
+     "assets/gallery/arkit_g_000041/f_000132.jpg"
+    ]
+   }
+  ],
+  "medium|T3": [
+   {
+    "group": "arkit_g_000064",
+    "scene": "arkit_47331963",
+    "template": "T3",
+    "question": "Imagine standing at the refrigerator while facing the sink. Where does the shelf lie relative to you?",
+    "oracle_steps": 13,
+    "frames": [
+     "assets/gallery/arkit_g_000064/f_005409.jpg",
+     "assets/gallery/arkit_g_000064/f_005379.jpg",
+     "assets/gallery/arkit_g_000064/f_005355.jpg",
+     "assets/gallery/arkit_g_000064/f_004334.jpg",
+     "assets/gallery/arkit_g_000064/f_005363.jpg",
+     "assets/gallery/arkit_g_000064/f_004991.jpg",
+     "assets/gallery/arkit_g_000064/f_004943.jpg",
+     "assets/gallery/arkit_g_000064/f_004921.jpg",
+     "assets/gallery/arkit_g_000064/f_004819.jpg",
+     "assets/gallery/arkit_g_000064/f_002289.jpg",
+     "assets/gallery/arkit_g_000064/f_004798.jpg",
+     "assets/gallery/arkit_g_000064/f_004759.jpg",
+     "assets/gallery/arkit_g_000064/f_004749.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000106",
+    "scene": "arkit_48458667",
+    "template": "T3",
+    "question": "If you were standing at the shelf and facing the chair, which direction would the bed be in relative to you?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000106/f_000840.jpg",
+     "assets/gallery/arkit_g_000106/f_001882.jpg",
+     "assets/gallery/arkit_g_000106/f_001810.jpg",
+     "assets/gallery/arkit_g_000106/f_000780.jpg",
+     "assets/gallery/arkit_g_000106/f_000750.jpg",
+     "assets/gallery/arkit_g_000106/f_000729.jpg",
+     "assets/gallery/arkit_g_000106/f_001205.jpg",
+     "assets/gallery/arkit_g_000106/f_001360.jpg",
+     "assets/gallery/arkit_g_000106/f_000453.jpg",
+     "assets/gallery/arkit_g_000106/f_000432.jpg",
+     "assets/gallery/arkit_g_000106/f_000201.jpg",
+     "assets/gallery/arkit_g_000106/f_000012.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000009",
+    "scene": "arkit_42897521",
+    "template": "T3",
+    "question": "Consider standing at the washing machine, facing toward the oven. Where is the sink relative to you?",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000009/f_001252.jpg",
+     "assets/gallery/arkit_g_000009/f_001219.jpg",
+     "assets/gallery/arkit_g_000009/f_001189.jpg",
+     "assets/gallery/arkit_g_000009/f_001354.jpg",
+     "assets/gallery/arkit_g_000009/f_001519.jpg",
+     "assets/gallery/arkit_g_000009/f_001570.jpg",
+     "assets/gallery/arkit_g_000009/f_001684.jpg",
+     "assets/gallery/arkit_g_000009/f_001657.jpg",
+     "assets/gallery/arkit_g_000009/f_001588.jpg",
+     "assets/gallery/arkit_g_000009/f_001692.jpg",
+     "assets/gallery/arkit_g_000009/f_000000.jpg",
+     "assets/gallery/arkit_g_000009/f_000632.jpg"
+    ]
+   }
+  ],
+  "medium|T4": [
+   {
+    "group": "arkit_g_000082",
+    "scene": "arkit_47430471",
+    "template": "T4",
+    "question": "From your starting position, facing your initial viewing direction, where is the shelf?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000082/f_003678.jpg",
+     "assets/gallery/arkit_g_000082/f_001790.jpg",
+     "assets/gallery/arkit_g_000082/f_001703.jpg",
+     "assets/gallery/arkit_g_000082/f_003511.jpg",
+     "assets/gallery/arkit_g_000082/f_001481.jpg",
+     "assets/gallery/arkit_g_000082/f_003953.jpg",
+     "assets/gallery/arkit_g_000082/f_001379.jpg",
+     "assets/gallery/arkit_g_000082/f_001269.jpg",
+     "assets/gallery/arkit_g_000082/f_001176.jpg",
+     "assets/gallery/arkit_g_000082/f_001047.jpg",
+     "assets/gallery/arkit_g_000082/f_001129.jpg",
+     "assets/gallery/arkit_g_000082/f_004040.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000014",
+    "scene": "arkit_42898527",
+    "template": "T4",
+    "question": "Taking your starting position and starting view direction as reference, where is the oven?",
+    "oracle_steps": 10,
+    "frames": [
+     "assets/gallery/arkit_g_000014/f_000460.jpg",
+     "assets/gallery/arkit_g_000014/f_000498.jpg",
+     "assets/gallery/arkit_g_000014/f_004934.jpg",
+     "assets/gallery/arkit_g_000014/f_004973.jpg",
+     "assets/gallery/arkit_g_000014/f_005070.jpg",
+     "assets/gallery/arkit_g_000014/f_005112.jpg",
+     "assets/gallery/arkit_g_000014/f_006626.jpg",
+     "assets/gallery/arkit_g_000014/f_000745.jpg",
+     "assets/gallery/arkit_g_000014/f_000901.jpg",
+     "assets/gallery/arkit_g_000014/f_001075.jpg",
+     "assets/gallery/arkit_g_000014/f_001170.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000020",
+    "scene": "arkit_42899699",
+    "template": "T4",
+    "question": "In terms of your starting position and the direction you initially faced, where is the table?",
+    "oracle_steps": 15,
+    "frames": [
+     "assets/gallery/arkit_g_000020/f_000385.jpg",
+     "assets/gallery/arkit_g_000020/f_000410.jpg",
+     "assets/gallery/arkit_g_000020/f_001389.jpg",
+     "assets/gallery/arkit_g_000020/f_000500.jpg",
+     "assets/gallery/arkit_g_000020/f_001353.jpg",
+     "assets/gallery/arkit_g_000020/f_001154.jpg",
+     "assets/gallery/arkit_g_000020/f_000364.jpg",
+     "assets/gallery/arkit_g_000020/f_000335.jpg",
+     "assets/gallery/arkit_g_000020/f_000292.jpg",
+     "assets/gallery/arkit_g_000020/f_000256.jpg",
+     "assets/gallery/arkit_g_000020/f_000230.jpg",
+     "assets/gallery/arkit_g_000020/f_000211.jpg",
+     "assets/gallery/arkit_g_000020/f_000175.jpg",
+     "assets/gallery/arkit_g_000020/f_000142.jpg",
+     "assets/gallery/arkit_g_000020/f_000125.jpg",
+     "assets/gallery/arkit_g_000020/f_000000.jpg"
+    ]
+   }
+  ],
+  "medium|T5": [
+   {
+    "group": "arkit_g_000041",
+    "scene": "arkit_47204566",
+    "template": "T5",
+    "question": "Stand at the TV and face the stool. Among the objects on your left, which is the closest to you?",
+    "oracle_steps": 8,
+    "frames": [
+     "assets/gallery/arkit_g_000041/f_001182.jpg",
+     "assets/gallery/arkit_g_000041/f_001059.jpg",
+     "assets/gallery/arkit_g_000041/f_001613.jpg",
+     "assets/gallery/arkit_g_000041/f_001198.jpg",
+     "assets/gallery/arkit_g_000041/f_000963.jpg",
+     "assets/gallery/arkit_g_000041/f_000285.jpg",
+     "assets/gallery/arkit_g_000041/f_000210.jpg",
+     "assets/gallery/arkit_g_000041/f_000168.jpg",
+     "assets/gallery/arkit_g_000041/f_000132.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000027",
+    "scene": "arkit_45663164",
+    "template": "T5",
+    "question": "Consider standing at the refrigerator, facing toward the oven. Among the objects on your left, identify the one closest to you.",
+    "oracle_steps": 14,
+    "frames": [
+     "assets/gallery/arkit_g_000027/f_002971.jpg",
+     "assets/gallery/arkit_g_000027/f_003013.jpg",
+     "assets/gallery/arkit_g_000027/f_003046.jpg",
+     "assets/gallery/arkit_g_000027/f_000316.jpg",
+     "assets/gallery/arkit_g_000027/f_001027.jpg",
+     "assets/gallery/arkit_g_000027/f_001213.jpg",
+     "assets/gallery/arkit_g_000027/f_000520.jpg",
+     "assets/gallery/arkit_g_000027/f_001815.jpg",
+     "assets/gallery/arkit_g_000027/f_001917.jpg",
+     "assets/gallery/arkit_g_000027/f_001986.jpg",
+     "assets/gallery/arkit_g_000027/f_001919.jpg",
+     "assets/gallery/arkit_g_000027/f_001796.jpg",
+     "assets/gallery/arkit_g_000027/f_001429.jpg",
+     "assets/gallery/arkit_g_000027/f_001770.jpg",
+     "assets/gallery/arkit_g_000027/f_000862.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000090",
+    "scene": "arkit_48018368",
+    "template": "T5",
+    "question": "Imagine standing at the washing machine while facing the sink. Which object to your left is closest to you?",
+    "oracle_steps": 15,
+    "frames": [
+     "assets/gallery/arkit_g_000090/f_001678.jpg",
+     "assets/gallery/arkit_g_000090/f_001489.jpg",
+     "assets/gallery/arkit_g_000090/f_001228.jpg",
+     "assets/gallery/arkit_g_000090/f_001189.jpg",
+     "assets/gallery/arkit_g_000090/f_001525.jpg",
+     "assets/gallery/arkit_g_000090/f_001570.jpg",
+     "assets/gallery/arkit_g_000090/f_001519.jpg",
+     "assets/gallery/arkit_g_000090/f_001645.jpg",
+     "assets/gallery/arkit_g_000090/f_001255.jpg",
+     "assets/gallery/arkit_g_000090/f_001318.jpg",
+     "assets/gallery/arkit_g_000090/f_001369.jpg",
+     "assets/gallery/arkit_g_000090/f_001429.jpg",
+     "assets/gallery/arkit_g_000090/f_000513.jpg",
+     "assets/gallery/arkit_g_000090/f_001739.jpg",
+     "assets/gallery/arkit_g_000090/f_000344.jpg",
+     "assets/gallery/arkit_g_000090/f_000155.jpg"
+    ]
+   }
+  ],
+  "easy|T1": [
+   {
+    "group": "arkit_g_000011",
+    "scene": "arkit_42897521",
+    "template": "T1",
+    "question": "What is the center-to-center distance between the stove and the sink, in meters?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000011/f_001296.jpg",
+     "assets/gallery/arkit_g_000011/f_001119.jpg",
+     "assets/gallery/arkit_g_000011/f_001354.jpg",
+     "assets/gallery/arkit_g_000011/f_001519.jpg",
+     "assets/gallery/arkit_g_000011/f_000632.jpg",
+     "assets/gallery/arkit_g_000011/f_000000.jpg",
+     "assets/gallery/arkit_g_000011/f_001699.jpg",
+     "assets/gallery/arkit_g_000011/f_001684.jpg",
+     "assets/gallery/arkit_g_000011/f_001570.jpg",
+     "assets/gallery/arkit_g_000011/f_001395.jpg",
+     "assets/gallery/arkit_g_000011/f_001657.jpg",
+     "assets/gallery/arkit_g_000011/f_001588.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000106",
+    "scene": "arkit_48458667",
+    "template": "T1",
+    "question": "How far is the center of the bed from the center of the chair, in meters?",
+    "oracle_steps": 11,
+    "frames": [
+     "assets/gallery/arkit_g_000106/f_000840.jpg",
+     "assets/gallery/arkit_g_000106/f_001882.jpg",
+     "assets/gallery/arkit_g_000106/f_001810.jpg",
+     "assets/gallery/arkit_g_000106/f_000780.jpg",
+     "assets/gallery/arkit_g_000106/f_000750.jpg",
+     "assets/gallery/arkit_g_000106/f_000729.jpg",
+     "assets/gallery/arkit_g_000106/f_001205.jpg",
+     "assets/gallery/arkit_g_000106/f_001360.jpg",
+     "assets/gallery/arkit_g_000106/f_000453.jpg",
+     "assets/gallery/arkit_g_000106/f_000432.jpg",
+     "assets/gallery/arkit_g_000106/f_000201.jpg",
+     "assets/gallery/arkit_g_000106/f_000012.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000098",
+    "scene": "arkit_48018375",
+    "template": "T1",
+    "question": "What's the distance from the center of the table to the center of the TV, measured in meters?",
+    "oracle_steps": 9,
+    "frames": [
+     "assets/gallery/arkit_g_000098/f_001250.jpg",
+     "assets/gallery/arkit_g_000098/f_001218.jpg",
+     "assets/gallery/arkit_g_000098/f_001145.jpg",
+     "assets/gallery/arkit_g_000098/f_000386.jpg",
+     "assets/gallery/arkit_g_000098/f_000358.jpg",
+     "assets/gallery/arkit_g_000098/f_002727.jpg",
+     "assets/gallery/arkit_g_000098/f_002699.jpg",
+     "assets/gallery/arkit_g_000098/f_002680.jpg",
+     "assets/gallery/arkit_g_000098/f_002729.jpg"
+    ]
+   }
+  ],
+  "easy|T2": [
+   {
+    "group": "arkit_g_000103",
+    "scene": "arkit_48458667",
+    "template": "T2",
+    "question": "Tell me which is closer to the table: the bed or the chair.",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000103/f_001810.jpg",
+     "assets/gallery/arkit_g_000103/f_000780.jpg",
+     "assets/gallery/arkit_g_000103/f_000750.jpg",
+     "assets/gallery/arkit_g_000103/f_000729.jpg",
+     "assets/gallery/arkit_g_000103/f_001205.jpg",
+     "assets/gallery/arkit_g_000103/f_001369.jpg",
+     "assets/gallery/arkit_g_000103/f_001417.jpg",
+     "assets/gallery/arkit_g_000103/f_001087.jpg",
+     "assets/gallery/arkit_g_000103/f_001142.jpg",
+     "assets/gallery/arkit_g_000103/f_000453.jpg",
+     "assets/gallery/arkit_g_000103/f_000432.jpg",
+     "assets/gallery/arkit_g_000103/f_000201.jpg",
+     "assets/gallery/arkit_g_000103/f_000012.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000043",
+    "scene": "arkit_47204566",
+    "template": "T2",
+    "question": "Between the shelf and the stool, which is closer to the TV?",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000043/f_000630.jpg",
+     "assets/gallery/arkit_g_000043/f_001835.jpg",
+     "assets/gallery/arkit_g_000043/f_000510.jpg",
+     "assets/gallery/arkit_g_000043/f_001613.jpg",
+     "assets/gallery/arkit_g_000043/f_001149.jpg",
+     "assets/gallery/arkit_g_000043/f_001059.jpg",
+     "assets/gallery/arkit_g_000043/f_001198.jpg",
+     "assets/gallery/arkit_g_000043/f_000963.jpg",
+     "assets/gallery/arkit_g_000043/f_000285.jpg",
+     "assets/gallery/arkit_g_000043/f_000210.jpg",
+     "assets/gallery/arkit_g_000043/f_000168.jpg",
+     "assets/gallery/arkit_g_000043/f_000132.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000033",
+    "scene": "arkit_45663164",
+    "template": "T2",
+    "question": "Which of these listed objects is the farthest from the refrigerator?",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000033/f_001754.jpg",
+     "assets/gallery/arkit_g_000033/f_001815.jpg",
+     "assets/gallery/arkit_g_000033/f_002078.jpg",
+     "assets/gallery/arkit_g_000033/f_001796.jpg",
+     "assets/gallery/arkit_g_000033/f_001429.jpg",
+     "assets/gallery/arkit_g_000033/f_001770.jpg",
+     "assets/gallery/arkit_g_000033/f_000862.jpg",
+     "assets/gallery/arkit_g_000033/f_000430.jpg",
+     "assets/gallery/arkit_g_000033/f_000397.jpg",
+     "assets/gallery/arkit_g_000033/f_000367.jpg",
+     "assets/gallery/arkit_g_000033/f_000934.jpg",
+     "assets/gallery/arkit_g_000033/f_000316.jpg"
+    ]
+   }
+  ],
+  "easy|T3": [
+   {
+    "group": "arkit_g_000033",
+    "scene": "arkit_45663164",
+    "template": "T3",
+    "question": "Imagine standing at the refrigerator while facing the sink. Where does the stove lie relative to you?",
+    "oracle_steps": 12,
+    "frames": [
+     "assets/gallery/arkit_g_000033/f_001754.jpg",
+     "assets/gallery/arkit_g_000033/f_001815.jpg",
+     "assets/gallery/arkit_g_000033/f_002078.jpg",
+     "assets/gallery/arkit_g_000033/f_001796.jpg",
+     "assets/gallery/arkit_g_000033/f_001429.jpg",
+     "assets/gallery/arkit_g_000033/f_001770.jpg",
+     "assets/gallery/arkit_g_000033/f_000862.jpg",
+     "assets/gallery/arkit_g_000033/f_000430.jpg",
+     "assets/gallery/arkit_g_000033/f_000397.jpg",
+     "assets/gallery/arkit_g_000033/f_000367.jpg",
+     "assets/gallery/arkit_g_000033/f_000934.jpg",
+     "assets/gallery/arkit_g_000033/f_000316.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000056",
+    "scene": "arkit_47331653",
+    "template": "T3",
+    "question": "Imagine standing at the oven while facing the washing machine. Where does the stool lie relative to you?",
+    "oracle_steps": 7,
+    "frames": [
+     "assets/gallery/arkit_g_000056/f_002642.jpg",
+     "assets/gallery/arkit_g_000056/f_001928.jpg",
+     "assets/gallery/arkit_g_000056/f_001645.jpg",
+     "assets/gallery/arkit_g_000056/f_000390.jpg",
+     "assets/gallery/arkit_g_000056/f_000354.jpg",
+     "assets/gallery/arkit_g_000056/f_000635.jpg",
+     "assets/gallery/arkit_g_000056/f_004464.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000090",
+    "scene": "arkit_48018368",
+    "template": "T3",
+    "question": "Put yourself at the sink, standing and facing the oven. Where is the washing machine relative to you?",
+    "oracle_steps": 15,
+    "frames": [
+     "assets/gallery/arkit_g_000090/f_001678.jpg",
+     "assets/gallery/arkit_g_000090/f_001489.jpg",
+     "assets/gallery/arkit_g_000090/f_001228.jpg",
+     "assets/gallery/arkit_g_000090/f_001189.jpg",
+     "assets/gallery/arkit_g_000090/f_001525.jpg",
+     "assets/gallery/arkit_g_000090/f_001570.jpg",
+     "assets/gallery/arkit_g_000090/f_001519.jpg",
+     "assets/gallery/arkit_g_000090/f_001645.jpg",
+     "assets/gallery/arkit_g_000090/f_001255.jpg",
+     "assets/gallery/arkit_g_000090/f_001318.jpg",
+     "assets/gallery/arkit_g_000090/f_001369.jpg",
+     "assets/gallery/arkit_g_000090/f_001429.jpg",
+     "assets/gallery/arkit_g_000090/f_000513.jpg",
+     "assets/gallery/arkit_g_000090/f_001739.jpg",
+     "assets/gallery/arkit_g_000090/f_000344.jpg",
+     "assets/gallery/arkit_g_000090/f_000155.jpg"
+    ]
+   }
+  ],
+  "easy|T4": [
+   {
+    "group": "arkit_g_000062",
+    "scene": "arkit_47331963",
+    "template": "T4",
+    "question": "In terms of your starting position and the direction you initially faced, where is the oven?",
+    "oracle_steps": 16,
+    "frames": [
+     "assets/gallery/arkit_g_000062/f_005475.jpg",
+     "assets/gallery/arkit_g_000062/f_001048.jpg",
+     "assets/gallery/arkit_g_000062/f_005502.jpg",
+     "assets/gallery/arkit_g_000062/f_005409.jpg",
+     "assets/gallery/arkit_g_000062/f_005379.jpg",
+     "assets/gallery/arkit_g_000062/f_005355.jpg",
+     "assets/gallery/arkit_g_000062/f_004334.jpg",
+     "assets/gallery/arkit_g_000062/f_005363.jpg",
+     "assets/gallery/arkit_g_000062/f_004991.jpg",
+     "assets/gallery/arkit_g_000062/f_004943.jpg",
+     "assets/gallery/arkit_g_000062/f_004921.jpg",
+     "assets/gallery/arkit_g_000062/f_004819.jpg",
+     "assets/gallery/arkit_g_000062/f_002289.jpg",
+     "assets/gallery/arkit_g_000062/f_004798.jpg",
+     "assets/gallery/arkit_g_000062/f_004759.jpg",
+     "assets/gallery/arkit_g_000062/f_004749.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000104",
+    "scene": "arkit_48458667",
+    "template": "T4",
+    "question": "Where would the chair be relative to your starting position and initial viewing direction?",
+    "oracle_steps": 13,
+    "frames": [
+     "assets/gallery/arkit_g_000104/f_000726.jpg",
+     "assets/gallery/arkit_g_000104/f_001205.jpg",
+     "assets/gallery/arkit_g_000104/f_000621.jpg",
+     "assets/gallery/arkit_g_000104/f_000537.jpg",
+     "assets/gallery/arkit_g_000104/f_001882.jpg",
+     "assets/gallery/arkit_g_000104/f_001810.jpg",
+     "assets/gallery/arkit_g_000104/f_001598.jpg",
+     "assets/gallery/arkit_g_000104/f_001417.jpg",
+     "assets/gallery/arkit_g_000104/f_001087.jpg",
+     "assets/gallery/arkit_g_000104/f_001142.jpg",
+     "assets/gallery/arkit_g_000104/f_000453.jpg",
+     "assets/gallery/arkit_g_000104/f_000432.jpg",
+     "assets/gallery/arkit_g_000104/f_000201.jpg",
+     "assets/gallery/arkit_g_000104/f_000012.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000098",
+    "scene": "arkit_48018375",
+    "template": "T4",
+    "question": "In terms of your starting position and the direction you initially faced, where is the TV?",
+    "oracle_steps": 9,
+    "frames": [
+     "assets/gallery/arkit_g_000098/f_001250.jpg",
+     "assets/gallery/arkit_g_000098/f_001218.jpg",
+     "assets/gallery/arkit_g_000098/f_001145.jpg",
+     "assets/gallery/arkit_g_000098/f_000386.jpg",
+     "assets/gallery/arkit_g_000098/f_000358.jpg",
+     "assets/gallery/arkit_g_000098/f_002727.jpg",
+     "assets/gallery/arkit_g_000098/f_002699.jpg",
+     "assets/gallery/arkit_g_000098/f_002680.jpg",
+     "assets/gallery/arkit_g_000098/f_002729.jpg"
+    ]
+   }
+  ],
+  "easy|T5": [
+   {
+    "group": "arkit_g_000090",
+    "scene": "arkit_48018368",
+    "template": "T5",
+    "question": "Standing at the sink and facing the washing machine, consider only the objects on your left: which one is closest to you?",
+    "oracle_steps": 15,
+    "frames": [
+     "assets/gallery/arkit_g_000090/f_001678.jpg",
+     "assets/gallery/arkit_g_000090/f_001489.jpg",
+     "assets/gallery/arkit_g_000090/f_001228.jpg",
+     "assets/gallery/arkit_g_000090/f_001189.jpg",
+     "assets/gallery/arkit_g_000090/f_001525.jpg",
+     "assets/gallery/arkit_g_000090/f_001570.jpg",
+     "assets/gallery/arkit_g_000090/f_001519.jpg",
+     "assets/gallery/arkit_g_000090/f_001645.jpg",
+     "assets/gallery/arkit_g_000090/f_001255.jpg",
+     "assets/gallery/arkit_g_000090/f_001318.jpg",
+     "assets/gallery/arkit_g_000090/f_001369.jpg",
+     "assets/gallery/arkit_g_000090/f_001429.jpg",
+     "assets/gallery/arkit_g_000090/f_000513.jpg",
+     "assets/gallery/arkit_g_000090/f_001739.jpg",
+     "assets/gallery/arkit_g_000090/f_000344.jpg",
+     "assets/gallery/arkit_g_000090/f_000155.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000030",
+    "scene": "arkit_45663164",
+    "template": "T5",
+    "question": "Stand at the sink and face the chair. Among the objects on your left, which is the closest to you?",
+    "oracle_steps": 20,
+    "frames": [
+     "assets/gallery/arkit_g_000030/f_001270.jpg",
+     "assets/gallery/arkit_g_000030/f_000508.jpg",
+     "assets/gallery/arkit_g_000030/f_000520.jpg",
+     "assets/gallery/arkit_g_000030/f_001815.jpg",
+     "assets/gallery/arkit_g_000030/f_001917.jpg",
+     "assets/gallery/arkit_g_000030/f_002105.jpg",
+     "assets/gallery/arkit_g_000030/f_000925.jpg",
+     "assets/gallery/arkit_g_000030/f_000886.jpg",
+     "assets/gallery/arkit_g_000030/f_000430.jpg",
+     "assets/gallery/arkit_g_000030/f_000367.jpg",
+     "assets/gallery/arkit_g_000030/f_000934.jpg",
+     "assets/gallery/arkit_g_000030/f_003046.jpg",
+     "assets/gallery/arkit_g_000030/f_000286.jpg",
+     "assets/gallery/arkit_g_000030/f_000204.jpg",
+     "assets/gallery/arkit_g_000030/f_000149.jpg",
+     "assets/gallery/arkit_g_000030/f_000095.jpg"
+    ]
+   },
+   {
+    "group": "arkit_g_000092",
+    "scene": "arkit_48018368",
+    "template": "T5",
+    "question": "If you stood at the stool facing the washing machine, which of the objects to your left would be closest to you?",
+    "oracle_steps": 6,
+    "frames": [
+     "assets/gallery/arkit_g_000092/f_000492.jpg",
+     "assets/gallery/arkit_g_000092/f_000513.jpg",
+     "assets/gallery/arkit_g_000092/f_000553.jpg",
+     "assets/gallery/arkit_g_000092/f_000724.jpg",
+     "assets/gallery/arkit_g_000092/f_000565.jpg",
+     "assets/gallery/arkit_g_000092/f_001757.jpg",
+     "assets/gallery/arkit_g_000092/f_000155.jpg"
+    ]
+   }
+  ]
+ },
+ "cell_stats": {
+  "hard|T1": {
+   "n_questions": 33,
+   "n_questions_incl_budget_infeasible": 36,
+   "active_mean": 17.5,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 44.8
+   }
+  },
+  "hard|T2": {
+   "n_questions": 109,
+   "n_questions_incl_budget_infeasible": 116,
+   "active_mean": 33.6,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 78.0
+   }
+  },
+  "hard|T3": {
+   "n_questions": 50,
+   "n_questions_incl_budget_infeasible": 54,
+   "active_mean": 25.3,
+   "active_best": {
+    "model": "sol",
+    "score": 66.0
+   }
+  },
+  "hard|T4": {
+   "n_questions": 11,
+   "n_questions_incl_budget_infeasible": 12,
+   "active_mean": 32.0,
+   "active_best": {
+    "model": "sol",
+    "score": 72.7
+   }
+  },
+  "hard|T5": {
+   "n_questions": 51,
+   "n_questions_incl_budget_infeasible": 60,
+   "active_mean": 28.0,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 76.5
+   }
+  },
+  "medium|T1": {
+   "n_questions": 66,
+   "n_questions_incl_budget_infeasible": 67,
+   "active_mean": 22.9,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 64.2
+   }
+  },
+  "medium|T2": {
+   "n_questions": 91,
+   "n_questions_incl_budget_infeasible": 92,
+   "active_mean": 45.5,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 95.6
+   }
+  },
+  "medium|T3": {
+   "n_questions": 84,
+   "n_questions_incl_budget_infeasible": 86,
+   "active_mean": 25.8,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 76.2
+   }
+  },
+  "medium|T4": {
+   "n_questions": 27,
+   "n_questions_incl_budget_infeasible": 28,
+   "active_mean": 36.1,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 74.1
+   }
+  },
+  "medium|T5": {
+   "n_questions": 24,
+   "n_questions_incl_budget_infeasible": 24,
+   "active_mean": 39.9,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 100.0
+   }
+  },
+  "easy|T1": {
+   "n_questions": 109,
+   "n_questions_incl_budget_infeasible": 109,
+   "active_mean": 29.8,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 68.4
+   }
+  },
+  "easy|T2": {
+   "n_questions": 71,
+   "n_questions_incl_budget_infeasible": 71,
+   "active_mean": 51.8,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 91.5
+   }
+  },
+  "easy|T3": {
+   "n_questions": 30,
+   "n_questions_incl_budget_infeasible": 30,
+   "active_mean": 31.4,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 93.3
+   }
+  },
+  "easy|T4": {
+   "n_questions": 139,
+   "n_questions_incl_budget_infeasible": 141,
+   "active_mean": 37.8,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 94.2
+   }
+  },
+  "easy|T5": {
+   "n_questions": 4,
+   "n_questions_incl_budget_infeasible": 4,
+   "active_mean": 38.0,
+   "active_best": {
+    "model": "opus-5.5",
+    "score": 100.0
+   }
+  }
+ },
+ "source": {
+  "scores": "same runs and scope as the paper main table (merged_v1.0 main table: 227 groups); per-question Active scores averaged over runs; cell_stats and row scores use answerable (explore) questions of both datasets",
+  "paper_table": {
+   "file": "reports/eval/paper_table/paper_main.csv",
+   "sha256": "d4b331ab9bf3085e7a68cd71d9222cbebc9ae918e1628eff51b840b1841bb439",
+   "generator_commit": "a48b9ea"
+  },
+  "n_models": 23,
+  "difficulty": "difficulty field of the frozen data (tertiles of oracle_steps within each dataset)"
+ },
+ "notes": "No answers, option correctness or model responses are included. oracle_steps = number of actions of the group's oracle route."
+}

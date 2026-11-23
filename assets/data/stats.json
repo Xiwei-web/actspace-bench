@@ -1,0 +1,204 @@
+{
+ "version": "merged_v1.0",
+ "datasets": {
+  "arkitscenes": {
+   "questions": 425,
+   "unanswerable": 25,
+   "groups": 103,
+   "scenes": 41,
+   "by_template": {
+    "T1": {
+     "questions": 107,
+     "unanswerable": 11
+    },
+    "T2": {
+     "questions": 121,
+     "unanswerable": 0
+    },
+    "T3": {
+     "questions": 75,
+     "unanswerable": 0
+    },
+    "T4": {
+     "questions": 94,
+     "unanswerable": 14
+    },
+    "T5": {
+     "questions": 28,
+     "unanswerable": 0
+    }
+   },
+   "questions_per_group": {
+    "3": 27,
+    "4": 36,
+    "5": 40
+   },
+   "oracle_steps_hist": {
+    "1": 14,
+    "2": 18,
+    "3": 27,
+    "4": 34,
+    "5": 33,
+    "6": 36,
+    "7": 40,
+    "8": 44,
+    "9": 29,
+    "10": 27,
+    "11": 21,
+    "12": 7,
+    "13": 14,
+    "14": 21,
+    "15": 13,
+    "16": 7,
+    "17": 7,
+    "18": 5,
+    "19": 3
+   },
+   "groups_per_scene": {
+    "arkit_41159519": 2,
+    "arkit_42444946": 1,
+    "arkit_42446156": 2,
+    "arkit_42446519": 1,
+    "arkit_42446541": 3,
+    "arkit_42897521": 3,
+    "arkit_42897564": 1,
+    "arkit_42897692": 1,
+    "arkit_42898527": 1,
+    "arkit_42898849": 1,
+    "arkit_42899459": 1,
+    "arkit_42899699": 5,
+    "arkit_44358435": 1,
+    "arkit_44358532": 1,
+    "arkit_45663115": 1,
+    "arkit_45663150": 1,
+    "arkit_45663164": 5,
+    "arkit_47115473": 4,
+    "arkit_47204552": 1,
+    "arkit_47204566": 6,
+    "arkit_47331064": 1,
+    "arkit_47331311": 8,
+    "arkit_47331653": 7,
+    "arkit_47331963": 8,
+    "arkit_47331971": 1,
+    "arkit_47333904": 1,
+    "arkit_47333932": 1,
+    "arkit_47334110": 2,
+    "arkit_47334241": 1,
+    "arkit_47429906": 1,
+    "arkit_47430051": 1,
+    "arkit_47430422": 4,
+    "arkit_47430471": 2,
+    "arkit_47895355": 4,
+    "arkit_47895536": 1,
+    "arkit_48018368": 8,
+    "arkit_48018375": 1,
+    "arkit_48018956": 1,
+    "arkit_48458652": 3,
+    "arkit_48458667": 4,
+    "arkit_48458735": 1
+   }
+  },
+  "scannetpp": {
+   "questions": 569,
+   "unanswerable": 39,
+   "groups": 131,
+   "scenes": 31,
+   "by_template": {
+    "T1": {
+     "questions": 141,
+     "unanswerable": 25
+    },
+    "T2": {
+     "questions": 158,
+     "unanswerable": 0
+    },
+    "T3": {
+     "questions": 95,
+     "unanswerable": 0
+    },
+    "T4": {
+     "questions": 115,
+     "unanswerable": 14
+    },
+    "T5": {
+     "questions": 60,
+     "unanswerable": 0
+    }
+   },
+   "questions_per_group": {
+    "3": 25,
+    "4": 36,
+    "5": 70
+   },
+   "oracle_steps_hist": {
+    "1": 16,
+    "2": 21,
+    "3": 45,
+    "4": 52,
+    "5": 59,
+    "6": 48,
+    "7": 54,
+    "8": 45,
+    "9": 37,
+    "10": 19,
+    "11": 33,
+    "12": 26,
+    "13": 10,
+    "14": 7,
+    "15": 8,
+    "16": 9,
+    "17": 10,
+    "18": 6,
+    "19": 5,
+    "20": 3,
+    "21": 6,
+    "22": 2,
+    "23": 1,
+    "24": 3,
+    "25": 1,
+    "26": 3,
+    "29": 1
+   },
+   "groups_per_scene": {
+    "scannetpp_09c1414f1b": 8,
+    "scannetpp_0d2ee665be": 7,
+    "scannetpp_13c3e046d7": 1,
+    "scannetpp_21d970d8de": 2,
+    "scannetpp_25f3b7a318": 5,
+    "scannetpp_286b55a2bf": 2,
+    "scannetpp_31a2c91c43": 1,
+    "scannetpp_3864514494": 1,
+    "scannetpp_38d58a7a31": 2,
+    "scannetpp_3db0a1c8f3": 8,
+    "scannetpp_3f15a9266d": 1,
+    "scannetpp_40aec5fffa": 8,
+    "scannetpp_45b0dac5e3": 8,
+    "scannetpp_5748ce6f01": 1,
+    "scannetpp_5942004064": 7,
+    "scannetpp_5eb31827b7": 8,
+    "scannetpp_5ee7c22ba0": 7,
+    "scannetpp_5f99900f09": 1,
+    "scannetpp_6115eddb86": 8,
+    "scannetpp_7bc286c1b6": 2,
+    "scannetpp_9071e139d9": 1,
+    "scannetpp_a24f64f7fb": 8,
+    "scannetpp_a8bf42d646": 4,
+    "scannetpp_acd95847c5": 4,
+    "scannetpp_b0a08200c9": 3,
+    "scannetpp_bcd2436daf": 8,
+    "scannetpp_c49a8c6cff": 6,
+    "scannetpp_c50d2d1d42": 1,
+    "scannetpp_e7af285f7d": 2,
+    "scannetpp_f2dc06b1d2": 4,
+    "scannetpp_f9f95681fd": 2
+   }
+  }
+ },
+ "total": {
+  "questions": 994,
+  "unanswerable": 64,
+  "groups": 234,
+  "scenes": 72
+ },
+ "notes": "oracle_steps: minimum actions from START to cover the evidence views (answerable questions only)."
+}
